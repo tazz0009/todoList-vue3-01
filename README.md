@@ -2,22 +2,13 @@
 
 ## Project setup
 ```
-npm install
-```
+npm install -g @vue/cli
+vue create todo-app
+cd todo-app
+npm install sass-loader node-sass --save
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
+npm install -D tailwindcss@npm:@tailwindcss/postcss7-compat postcss@^7 autoprefixer@^9
+npx tailwindcss init -p
 ```
 
 ### Customize configuration
